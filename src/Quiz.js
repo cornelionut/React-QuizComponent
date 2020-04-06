@@ -6,7 +6,7 @@ class Quiz extends Component {
 
     constructor(props) {
         super(props)
-        this.state = { quiz_pozition: 1 }
+        this.state = { quiz_position: 1 }
     }
 
     render() {
@@ -18,4 +18,4 @@ class Quiz extends Component {
     }
 }
 
-export default Quiz;
+export default Quiz
